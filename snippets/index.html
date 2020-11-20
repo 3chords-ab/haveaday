@@ -4,51 +4,7 @@
   <meta charset="utf-8">
   <title>Snippets</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Playfair+Display&display=swap');
-    body {
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-      height: 100vh;
-      font-family: "Assistant", "Helvetica", sans-serif;
-      padding: 0;
-      margin: 0;
-    }
-    header {
-      background: linear-gradient(92.05deg, #8db19d 25%, #8d91b1 75%);
-      color: whitesmoke;
-      padding: 10px 30px;
-    }
-    section {
-      padding: 10px 30px;
-      border-bottom: 1px solid lightgrey;
-    }
-    section:last-of-type {
-      border-bottom: none;
-    }
-    footer {
-      background: #333;
-      color: whitesmoke;
-      padding: 10px 30px;
-      font-size: small;
-      text-align: right;
-    }
-    pre {
-      font-size: small;
-      font-family: "SourceCodePro-Medium", "MS Gothic", monospace;
-      font-weight: lighter;
-      background: #f7f7f7;
-      color: #333;
-      padding: 20px 0 10px;
-      overflow: scroll;
-    }
-    hr { border: 0; border-top: 1px solid lightgrey; }
-    a {
-      background: linear-gradient(92.05deg, #BCA1F7 12.09%, #E577B4 42.58%, #FF7170 84.96%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-box-decoration-break: clone;
-    }
+    @import url('style.css');
   </style>
 </head>
 <body>
@@ -64,7 +20,7 @@
 
   <p>Code:</p>
   <pre>
-    a {
+    .rainbow {
       background: linear-gradient(92.05deg, #BCA1F7 12.09%, #E577B4 42.58%, #FF7170 84.96%);
       -webkit-background-clip: text;
       background-clip: text;
@@ -75,7 +31,7 @@
 
   <p>Result:</p>
   <h2>
-    <a href="#">Coooooool link</a>
+    <a href="#" class="rainbow">Coooooool link &raquo;</a>
   </h2>
   </section>
 
